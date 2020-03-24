@@ -118,7 +118,7 @@ class EExcelView extends CGridView
      * See PhpOffice\PhpSpreadsheet\IOFactory::writers
      * @var array
      */
-    private static $writerTypes = [
+	protected static $writerTypes = [
         self::EXPORT_TYPE_XLS => array(
             self::CONTENT_TYPE=>'application/vnd.ms-excel',
             self::FILE_EXTENSION=>'xls',
